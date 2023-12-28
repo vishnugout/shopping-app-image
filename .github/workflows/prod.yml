@@ -44,5 +44,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v2
         with:
           token: ${{ secrets.PAT }}
-          repository: vishnugout/shopping-app-infra-repo
+          repository: vishnugout/shopping-app-infra28
           event-type: prod-deploy-event      
